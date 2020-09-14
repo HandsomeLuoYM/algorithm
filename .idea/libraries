@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="libraryTable">
+    <library name="apache-maven-3.6">
+      <CLASSES>
+        <root url="file://C:/Jdk/apache-maven-3.6.0" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+      <jarDirectory url="file://C:/Jdk/apache-maven-3.6.0" recursive="false" />
+    </library>
+  </component>
+</project>
