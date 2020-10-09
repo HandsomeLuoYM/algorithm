@@ -89,6 +89,17 @@ public class LeetCode {
     }
 
     class Solution {
+        /**
+         * 动态规划
+         * 思路：和自己的思路类似，但是采用的比较轻量
+         *      [i][j]：
+         *          j==0 ：代表还是 红黄红 情况
+         *          j==1 ：代表还是 黄红 情况
+         *          j==0 ：代表还是 红 情况
+         *
+         * @param leaves
+         * @return
+         */
         public int minimumOperations(String leaves) {
             int n = leaves.length();
             int[][] f = new int[n][3];
@@ -107,10 +118,27 @@ public class LeetCode {
         }
     }
 
-
-    public static void main(String[] args) {
-        LeetCode leetCode = new LeetCode();
-        int rrryyyrryyyrr = leetCode.minimumOperations("");
-        System.out.println(rrryyyrryyyrr);
+    class Solution1 {
+        /**
+         * 前缀和 + 动态规划
+         * @param leaves
+         * @return
+         */
+        public int minimumOperations(String leaves) {
+            int n = leaves.length();
+            int g = leaves.charAt(0) == 'y' ? 1 : -1;
+            int gmin = g;
+            int ans = Integer.MAX_VALUE;
+            for (int i = 1; i < n; ++i) {
+                int isYellow = leaves.charAt(i) == 'y' ? 1 : 0;
+                g += 2 * isYellow - 1;
+                if (i != n - 1) {
+                    ans = Math.min(ans, gmin - g);
+                }
+                gmin = Math.min(gmin, g);
+            }
+            return ans + (g + n) / 2;
+        }
     }
+
 }
