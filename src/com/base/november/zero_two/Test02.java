@@ -1,9 +1,13 @@
-package com.base.october.three_zero;
+package com.base.november.zero_two;
 
-import java.io.*;
-import java.util.ArrayList;
+
+import com.base.october.three_zero.PersonInfo;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.HashMap;
-import java.util.Queue;
 
 /**
  * @author Ming
@@ -13,7 +17,7 @@ import java.util.Queue;
 public class Test02 {
 
     public static void main(String[] args) throws Exception {
-        ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream("D:\\idea_maven\\algorithm\\test.txt"));
+//        ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream("D:\\idea_maven\\algorithm\\test.txt"));
         ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream("D:\\idea_maven\\algorithm\\test.txt"));
 //        PersonInfo piObject = new PersonInfo(110);
 //        Person pObject1 = new Person(1, "AAA", 1008611,piObject);
@@ -30,12 +34,10 @@ public class Test02 {
 //        System.out.println(person1.getPersonInfo()==personInfo); //读出来的 Person 对象中的 PersonInfo 引用和读出来的 PersonInfo 一致
 //        System.out.println(person1.getPersonInfo()==person2.getPersonInfo()); //读出来的 Person 对象中的 PersonInfo 引用都是同一个
 
-        Person person = new Person(1, "BBB", 100, new PersonInfo(123456789));
-        outputStream.writeObject(person);
-//        Person p1 = (Person) inputStream.readObject();
-//        ArrayList list = (ArrayList)inputStream.readObject();
-        HashMap map = (HashMap)inputStream.readObject();
-        System.out.println(map);
+//        Person person = new Person(1, "AAABBB", 100);
+//        outputStream.writeObject(person);
+        Person p1 = (Person) inputStream.readObject();;
+        System.out.println(p1);
 
 
     }

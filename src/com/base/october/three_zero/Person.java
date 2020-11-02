@@ -1,6 +1,8 @@
 package com.base.october.three_zero;
 
-import java.io.Serializable;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * @author Ming
@@ -8,7 +10,7 @@ import java.io.Serializable;
  * @describe
  */
 public class Person implements Serializable {
-    private Integer id;
+    transient private Integer id;
     private String name;
     private Integer age;
     private PersonInfo personInfo;
@@ -35,4 +37,32 @@ public class Person implements Serializable {
                 ", age=" + age +
                 '}';
     }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+    private void writeObject(ObjectOutputStream out) throws IOException{
+        //将名字反转写入二进制流       
+        out.writeObject("new StringBuffer(this.name).reverse()");
+        out.writeInt(age);
+    }
+    private void readObject(ObjectInputStream ins) throws IOException,ClassNotFoundException{
+        //将读出的字符串反转恢复回来      
+        this.name = ins.readObject().toString();
+        this.age = ins.readInt();
+    }
+
+    private Object readResolve() throws ObjectStreamException{
+        HashMap<Object, Object> objectObjectHashMap = new HashMap<>();
+        objectObjectHashMap.put(123456,1321321);
+        return objectObjectHashMap;
+    }
+
+    private Object writeReplace() throws ObjectStreamException {
+        ArrayList<Object> list = new ArrayList<>(2);
+        list.add(this.name);
+        list.add(this.age);
+        return list;
+    }
+
 }
