@@ -16,5 +16,4 @@ public class Lazy {
         }
         return LAZY;
     }
-
 }
