@@ -8,19 +8,20 @@ import java.util.concurrent.*;
  * @describe
  */
 public class ThreadPoolTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+
 
 
         ThreadPoolExecutor pool = new ThreadPoolExecutor(2,3,60,
                 TimeUnit.SECONDS,
                 new ArrayBlockingQueue<Runnable>(5),
-                Executors.defaultThreadFactory()
+                Executors.defaultThreadFactory(),
+                new ThreadPoolExecutor.DiscardOldestPolicy()
         );
         for (int i = 0; i<9; i++){
             pool.execute(new Task(i));
         }
       pool.shutdownNow();
-
 
     }
 }
