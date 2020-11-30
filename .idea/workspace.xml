@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="039a5b56-1d4b-4bd7-93a3-ecf9fdb16669" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/october/two_one/Dp02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/october/two_one/LeetCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/october/two_two/LeetCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/base/october/two_one/Test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/com/algorithm/september/one_eight/FiftyEight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/com/algorithm/september/one_eight/FiftyEight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +25,14 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="algorithm" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -53,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/base/november/zero_eight" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,13 +69,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.base.november.zero_serven.destroysingle" />
+      <recent name="com.base.november.zero_serven" />
+      <recent name="com.base.november.zero_two" />
       <recent name="com.algorithm.october.one_eight" />
       <recent name="com.base.october.one_serven" />
-      <recent name="com.test.test" />
-      <recent name="com.algorithm.october.one_three" />
-      <recent name="com.algorithm.october.one_zero" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_maven\algorithm\src\com\base\november\zero_eight" />
+      <recent name="D:\idea_maven\algorithm" />
       <recent name="D:\idea_maven\algorithm\src\com\algorithm\interview" />
       <recent name="D:\idea_maven\algorithm\src\com\algorithm\august\three_zero" />
     </key>
@@ -93,13 +94,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeetCode (1)">
+  <component name="RunManager" selected="Application.SynchronizedTest">
     <configuration name="LeetCode (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.october.two_two.LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.november.two_one.LeetCode" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.october.two_two.*" />
+          <option name="PATTERN" value="com.algorithm.november.two_one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.november.two_three.LeetCode" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.november.two_three.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.november.two_eight.LeetCode" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.november.two_eight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +135,11 @@
       </method>
     </configuration>
     <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.october.two_zero.LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.november.three_zero.LeetCode" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.october.two_zero.*" />
+          <option name="PATTERN" value="com.algorithm.november.three_zero.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.october.two_one.Test01" />
+    <configuration name="SynchronizedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.november.one_eight.SynchronizedTest" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.base.october.two_one.*" />
+          <option name="PATTERN" value="com.base.november.one_eight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +162,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeetCode (1)" />
-        <item itemvalue="Application.Test01" />
         <item itemvalue="Application.LeetCode" />
+        <item itemvalue="Application.LeetCode (3)" />
+        <item itemvalue="Application.LeetCode (2)" />
+        <item itemvalue="Application.LeetCode (1)" />
+        <item itemvalue="Application.SynchronizedTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -345,7 +377,86 @@
       <workItem from="1603282439086" duration="5029000" />
       <workItem from="1603343925696" duration="4074000" />
       <workItem from="1603366917295" duration="118000" />
-      <workItem from="1603369886934" duration="354000" />
+      <workItem from="1603369886934" duration="510000" />
+      <workItem from="1603383268860" duration="2382000" />
+      <workItem from="1603452605559" duration="20000" />
+      <workItem from="1603465835054" duration="662000" />
+      <workItem from="1603474462584" duration="1447000" />
+      <workItem from="1603532701626" duration="12518000" />
+      <workItem from="1603597601345" duration="4583000" />
+      <workItem from="1603608417802" duration="2000000" />
+      <workItem from="1603610838971" duration="2688000" />
+      <workItem from="1603617105610" duration="464000" />
+      <workItem from="1603638637189" duration="4356000" />
+      <workItem from="1603698786947" duration="4457000" />
+      <workItem from="1603717864886" duration="4203000" />
+      <workItem from="1603734504945" duration="312000" />
+      <workItem from="1603765914475" duration="14562000" />
+      <workItem from="1603815370349" duration="4378000" />
+      <workItem from="1603879033674" duration="56000" />
+      <workItem from="1603905340265" duration="1763000" />
+      <workItem from="1603977442720" duration="1220000" />
+      <workItem from="1604022118332" duration="7959000" />
+      <workItem from="1604051571761" duration="7373000" />
+      <workItem from="1604118242791" duration="3465000" />
+      <workItem from="1604126314029" duration="6079000" />
+      <workItem from="1604163564450" duration="40000" />
+      <workItem from="1604204855448" duration="4995000" />
+      <workItem from="1604214234371" duration="10973000" />
+      <workItem from="1604281892594" duration="969000" />
+      <workItem from="1604304744249" duration="5599000" />
+      <workItem from="1604321648120" duration="4631000" />
+      <workItem from="1604333022398" duration="633000" />
+      <workItem from="1604422010068" duration="5346000" />
+      <workItem from="1604492209964" duration="434000" />
+      <workItem from="1604561308176" duration="3919000" />
+      <workItem from="1604573876494" duration="776000" />
+      <workItem from="1604634540119" duration="4220000" />
+      <workItem from="1604663205324" duration="628000" />
+      <workItem from="1604716901976" duration="3535000" />
+      <workItem from="1604733329336" duration="9882000" />
+      <workItem from="1604806527691" duration="432000" />
+      <workItem from="1604841457829" duration="9735000" />
+      <workItem from="1604857814820" duration="1215000" />
+      <workItem from="1604908977763" duration="903000" />
+      <workItem from="1604934178739" duration="4784000" />
+      <workItem from="1604974585513" duration="3083000" />
+      <workItem from="1604981970876" duration="67000" />
+      <workItem from="1605008643776" duration="8128000" />
+      <workItem from="1605029173053" duration="1389000" />
+      <workItem from="1605071193923" duration="12000" />
+      <workItem from="1605145361387" duration="1305000" />
+      <workItem from="1605200464237" duration="1348000" />
+      <workItem from="1605318703227" duration="14390000" />
+      <workItem from="1605419754822" duration="6114000" />
+      <workItem from="1605461385661" duration="2704000" />
+      <workItem from="1605512574344" duration="875000" />
+      <workItem from="1605544393021" duration="2463000" />
+      <workItem from="1605635298164" duration="1596000" />
+      <workItem from="1605680907351" duration="111000" />
+      <workItem from="1605687930624" duration="37000" />
+      <workItem from="1605692612015" duration="10911000" />
+      <workItem from="1605789568152" duration="1582000" />
+      <workItem from="1605804452322" duration="2868000" />
+      <workItem from="1605840242126" duration="3642000" />
+      <workItem from="1605931505316" duration="6970000" />
+      <workItem from="1605958090019" duration="307000" />
+      <workItem from="1605962296599" duration="7912000" />
+      <workItem from="1606014326595" duration="1046000" />
+      <workItem from="1606095970519" duration="812000" />
+      <workItem from="1606184824855" duration="1078000" />
+      <workItem from="1606235342425" duration="2075000" />
+      <workItem from="1606377443590" duration="2946000" />
+      <workItem from="1606384275036" duration="6882000" />
+      <workItem from="1606397747218" duration="3443000" />
+      <workItem from="1606442355347" duration="1794000" />
+      <workItem from="1606496819392" duration="249000" />
+      <workItem from="1606545474212" duration="8109000" />
+      <workItem from="1606586538305" duration="934000" />
+      <workItem from="1606639587378" duration="17000" />
+      <workItem from="1606648070716" duration="469000" />
+      <workItem from="1606659924189" duration="1927000" />
+      <workItem from="1606697547356" duration="8675000" />
     </task>
     <servers />
   </component>
@@ -423,7 +534,96 @@
           <line>82</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithm/october/two_three/LeetCode.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithm/october/two_five/LeetCode.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithm/october/two_five/LeetCode.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithm/october/two_eight/LeetCode.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithm/october/three_zero/LeetCode.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/ThreadPoolExecutor.java</url>
+          <line>1148</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithm/november/zero_four/LeetCode.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithm/november/zero_four/LeetCode.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithm/november/zero_five/LeetCode.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithm/november/one_four/LeetCode.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithm/november/one_four/LeetCode.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithm/november/one_five/LeetCode.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithm/november/two_zero/LeetCode.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithm/november/three_zero/LeetCode.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithm/november/three_zero/LeetCode.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/base/november/one_eight/ThreadLocalTest.java</url>
+          <line>16</line>
+          <properties class="com.base.november.one_eight.ThreadLocalTest" method="setContent">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="arr[0]" />
+        <watch expression="rightIndex" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
