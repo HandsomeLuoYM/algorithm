@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="039a5b56-1d4b-4bd7-93a3-ecf9fdb16669" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SynchronizedTest">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="LeetCode (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithm.november.two_one.LeetCode" />
       <module name="algorithm" />
@@ -147,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.november.one_eight.SynchronizedTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.november.Three_zero.Test" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.base.november.one_eight.*" />
+          <option name="PATTERN" value="com.base.november.Three_zero.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.LeetCode" />
         <item itemvalue="Application.LeetCode (3)" />
         <item itemvalue="Application.LeetCode (2)" />
         <item itemvalue="Application.LeetCode (1)" />
-        <item itemvalue="Application.SynchronizedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -456,7 +455,9 @@
       <workItem from="1606639587378" duration="17000" />
       <workItem from="1606648070716" duration="469000" />
       <workItem from="1606659924189" duration="1927000" />
-      <workItem from="1606697547356" duration="8675000" />
+      <workItem from="1606697547356" duration="11979000" />
+      <workItem from="1606743816201" duration="5432000" />
+      <workItem from="1606790655366" duration="3138000" />
     </task>
     <servers />
   </component>
