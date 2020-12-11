@@ -64,7 +64,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4476067" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -476,7 +476,10 @@
       <workItem from="1607477854736" duration="2513000" />
       <workItem from="1607523484525" duration="142000" />
       <workItem from="1607523666993" duration="201000" />
-      <workItem from="1607563755387" duration="893000" />
+      <workItem from="1607563755387" duration="1525000" />
+      <workItem from="1607602402201" duration="1954000" />
+      <workItem from="1607655595895" duration="392000" />
+      <workItem from="1607704689695" duration="211000" />
     </task>
     <servers />
   </component>
