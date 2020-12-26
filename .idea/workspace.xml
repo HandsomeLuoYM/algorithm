@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="039a5b56-1d4b-4bd7-93a3-ecf9fdb16669" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/december/摆动序列/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/december/摆动序列/LeetCode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4476067" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -93,65 +94,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeetCode (5)">
-    <configuration name="LeetCode (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.december.计数质数.LeetCode" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.december.计数质数.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.december.任务调度器.LeetCode" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.december.任务调度器.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.december.翻转矩阵后的得分.LeetCode" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.december.翻转矩阵后的得分.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.december.不同路径.LeetCode" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.december.不同路径.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.december.杨辉三角.LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.december.分发饼干.LeetCode" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.december.杨辉三角.*" />
+          <option name="PATTERN" value="com.algorithm.december.分发饼干.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeetCode (5)" />
-        <item itemvalue="Application.LeetCode (4)" />
         <item itemvalue="Application.LeetCode" />
-        <item itemvalue="Application.LeetCode (3)" />
-        <item itemvalue="Application.LeetCode (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -480,6 +425,29 @@
       <workItem from="1607602402201" duration="1954000" />
       <workItem from="1607655595895" duration="392000" />
       <workItem from="1607704689695" duration="211000" />
+      <workItem from="1607705280076" duration="3137000" />
+      <workItem from="1607708921306" duration="2848000" />
+      <workItem from="1607741081466" duration="28000" />
+      <workItem from="1607825117233" duration="1082000" />
+      <workItem from="1607863908399" duration="16000" />
+      <workItem from="1607879003092" duration="3261000" />
+      <workItem from="1607962599193" duration="1660000" />
+      <workItem from="1608014079076" duration="56000" />
+      <workItem from="1608049142781" duration="1476000" />
+      <workItem from="1608091754817" duration="24000" />
+      <workItem from="1608168127667" duration="3128000" />
+      <workItem from="1608185040145" duration="39000" />
+      <workItem from="1608223047720" duration="687000" />
+      <workItem from="1608349874234" duration="1654000" />
+      <workItem from="1608397572861" duration="204000" />
+      <workItem from="1608475552327" duration="136000" />
+      <workItem from="1608516534656" duration="1778000" />
+      <workItem from="1608567104953" duration="1408000" />
+      <workItem from="1608600658475" duration="1395000" />
+      <workItem from="1608698118017" duration="1340000" />
+      <workItem from="1608777281571" duration="1978000" />
+      <workItem from="1608826025734" duration="1065000" />
+      <workItem from="1609002540385" duration="1118000" />
     </task>
     <servers />
   </component>
@@ -653,5 +621,13 @@
         <watch expression="rightIndex" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algorithm$LeetCode__3_.ic" NAME="LeetCode (3) Coverage Results" MODIFIED="1607963375167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.algorithm.december.单调递增的数字.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/algorithm$LeetCode__1_.ic" NAME="LeetCode (1) Coverage Results" MODIFIED="1607709710298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.algorithm.december.摆动序列.*</FILTER>
+    </SUITE>
   </component>
 </project>
